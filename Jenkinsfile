@@ -9,4 +9,7 @@ node {
        echo " testing the project"
        
    }
+  stage('Notify') {
+     echo " hi Your Job is successfull"
+}
 }
