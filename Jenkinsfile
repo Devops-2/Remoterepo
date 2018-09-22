@@ -1,4 +1,4 @@
-node {
+node ('aws') {
    stage('Checkout') {
        checkout scm
    }
