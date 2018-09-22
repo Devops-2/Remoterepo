@@ -8,9 +8,10 @@ node {
    stage('Test') {
        echo " testing the project"
        
-   }
-  stage('Run')
+}
+  stage("Calling maven job")
 {
-echo " Run Stage"
+echo "calling Mavenfirst repo job"
+build 'first-org/mavenfirst/develop'
 }
 }
