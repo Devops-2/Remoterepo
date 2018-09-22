@@ -9,4 +9,8 @@ node {
        echo " testing the project"
        
    }
+  stage('Run')
+{
+echo " Run Stage"
+}
 }
